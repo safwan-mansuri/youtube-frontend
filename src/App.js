@@ -15,7 +15,7 @@ const App = () => {
     event.preventDefault();
     const formData = new FormData();
     formData.append('file', as, as.name);
-    const url = 'http://127.0.0.1:5000/upload';
+    const url = 'https://youtube-backends.herokuapp.com/upload';
 
     const resp2 = await axios.post(url, formData, {headers: {
       'Content-Type': 'multipart/form-data',
