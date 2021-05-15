@@ -26,3 +26,8 @@ https://user-images.githubusercontent.com/82272505/118361801-92fc2d00-b5aa-11eb-
 
 ### Link
 https://youtube-frontends.herokuapp.com/
+
+### run locally
+
+1. Run `npm install`
+2. Run `npm start`
