@@ -22,7 +22,8 @@ Get the youtube history stats in order to optimize the time on youtube.
 https://user-images.githubusercontent.com/82272505/118361797-92639680-b5aa-11eb-9538-feda79b0dd46.mov
 
 ### website demo.
-https://user-images.githubusercontent.com/82272505/118361801-92fc2d00-b5aa-11eb-9b54-cdcc62980b9b.mov
+
+https://user-images.githubusercontent.com/82272505/119243190-2d97d580-bb82-11eb-8a85-a20fe3e1c73b.mp4
 
 ### Link
 https://youtube-frontends.herokuapp.com/
