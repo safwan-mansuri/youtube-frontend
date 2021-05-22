@@ -32,17 +32,25 @@ const App = () => {
     setLoading(false);
   }
 
+  const redColor = {
+    color: 'red'
+  }
+
+  const linkStyle = {
+    marginTop: '20px',
+  }
+
   const headerStyle = {
     backgroundColor: '#ECF0F1'
   }
 
   const textStyle = {
     textAlign: 'center',
-    color:'red'
+    ...redColor
   }
 
   const bodyStyle = {
-    color: 'red',
+    ...redColor,
     marginTop: '30px',
     marginLeft: '30px'
   }
@@ -58,7 +66,14 @@ const App = () => {
       </div>
 
       <input type='file' name='file' onChange={handleChange}/>
-      <button type='submit' onClick={show}>submit</button>
+      <button type='submit' onClick={show}>submit</button> <br/>
+
+    <div style={linkStyle}>
+      <a style={redColor} href="https://github.com/safwan-mansuri/youtube-frontend" target='blank' >
+        kindly visit this website for use.
+      </a>
+    </div>
+
       {console.log(data)}
       {
         data ? (
